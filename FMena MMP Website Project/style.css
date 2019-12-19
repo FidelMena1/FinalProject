@@ -1,0 +1,433 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image: url(FMena_SelfieVector.png);
+    height: 350vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+    
+}
+
+.selfie img
+{
+    width: 250px;
+    height: auto;
+    float: left;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color:white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.img1 img
+{
+    position:relative;
+    width: 500px;
+    transform: rotate(90deg);
+    border: 4px solid;
+    top: 600px;
+}
+
+.img2 img
+{
+    position: relative;
+    width: 500px;
+    border: 4px solid;
+    top: 750px;
+    left: 313px;
+}
+
+.img3 img
+{
+    position: relative;
+    width: 500px;
+    border: 4px solid;
+    top: 800px;
+    left: 313px;
+}
+
+.img4 img
+{
+    position: relative;
+    width: 500px;
+    border: 4px solid;
+    top: 900px;
+    left: 313px;
+}
+
+h2
+{
+    color: white;
+    position: relative;
+    top: 400px;
+    left: 800px;
+}
+
+h3
+{
+    color: white;
+    position: relative;
+    top: 550px;
+    left: 850px;
+    font-size: 20px;
+}
+
+h4
+{
+    color: white;
+    position: relative;
+    top: 600px;
+    left: 850px;
+    font-size: 20px;
+}
+
+h5
+{
+    color: white;
+    position: relative;
+    top: 700px;
+    left: 850px;
+    font-size: 20px;
+}
+
+video
+{
+    border: 4px solid;
+    position: relative;
+    top: 950px;
+    left: 312px;
+}
+
+h6
+{
+    color: white;
+    position: relative;
+    top: 1200px;
+    left: 1012px;
+    font-size: 20px;
+}
+
+.About-Project p
+{
+    color: white;
+    position: relative;
+    top: 500px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 0 0 3px black;
+}
+
+.About-Project p2
+{
+    color: green;
+    position: relative;
+    top: 600px;
+    font-size: 30px;
+    font-family: "Roboto", monospace;
+    word-break: break-word;
+    right: 100px;
+    width: 10px;
+    text-shadow: 2px 2px 8px black;
+    line-height: 1.5;
+}
+
+.About-Project p3
+{
+    color: green;
+    position: absolute;
+    top: 1000px;
+    font-size: 30px;
+    font-family: "Roboto", monospace;
+    word-break: break-word;
+    right: 1000px;
+    text-shadow: 2px 2px 8px black;
+}
+
+.CC1 img
+{
+    position: relative;
+    left: 1460px;
+    top: 600px;
+    
+}
+
+.CC2 img
+{
+    position: relative;
+    left: 1380px;
+    top: 600px;
+}
+
+.QNA1 p
+{
+    color: green;
+    position: relative;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Roboto", monospace;
+}
+
+.QNA1 p2
+{
+    color: green;
+    position: relative;
+    font-size: 25px;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Roboto", monospace;
+}
+
+.QNA1 p3
+{
+    color: green;
+    position: relative;
+    font-size: 30px;
+    top: 100px;
+    right: 800px;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Roboto", monospace;
+}
+
+.QNA1 p4
+{
+    color: green;
+    position: relative;
+    font-size: 25px;
+    left: 00px;
+    top: 100px;
+    text-shadow: 2px 2px 8px black;
+    font-family: "Roboto", monospace;
+    word-break: break-word;
+}
+
+.QNA1 p5
+{
+    color: green;
+    position: relative;
+    font-size: 30px;
+    right: 910px;
+    top: 200px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px 8px Black; 
+}
+
+.QNA1 p6
+{
+    color: green;
+    position: absolute;
+    font-size: 25px;
+    right: 1300px;
+    top: 2035px;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 2px 2px 8px Black;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.QNA1 p7
+{
+    color: darkblue;
+    position: relative;
+    font-size: 30px;
+    top: 700px;
+    right: 750px;
+    text-shadow: 0 0 3px Black;
+}
+
+audio
+{
+    border: 4px solid;
+    position: relative;
+    bottom: 1900px;
+    left: 600px;
+}
+
+.aud1 p
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    bottom: 1340px;
+    left: 1250px;
+    width: 300px;
+}
+
+.selfie2 img
+{
+    position:relative;
+    width: 500px;
+    transform: rotate(90deg);
+    border: 4px solid;
+    top: 400px;
+    right: 300px;
+}
+
+.Questions p
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 420px;
+    left: 150px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p1
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 440px;
+    left: 150px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p2
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 590px;
+    right: 110px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p3
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 640px;
+    right: 380px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p4
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 790px;
+    right: 810px;
+    width: 200px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p5
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 800px;
+    left: 150px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p6
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 900px;
+    right: 210px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p7
+{
+    color: white;
+    position: relative;
+    font-size: 30px;
+    top: 945px;
+    right: 500px;
+    text-shadow: 0 0 3px Black;
+}
+
+.Questions p8
+{
+    color: black;
+    position: relative;
+    font-size: 70px;
+    top: 1300px;
+    right: 500px;
+    font-family: "Roboto", sans-serif;
+}
+
+.Ab1 p
+{
+    color: white;
+    position: relative;
+    font-size: 40px;
+    top: 400px;
+    text-shadow: 0 0 3px Black;
+    font-family: "Roboto", sans-serif;
+}
+
+.Ab1 p1
+{
+    color: white;
+    position: relative;
+    font-size: 40px;
+    top: 450px;
+    text-shadow: 0 0 3px Black;
+    right: 150px;
+}
+
+.Ab1 p2
+{
+    color: red;
+    position: relative;
+    font-size: 60px;
+    top: 600px;
+    right: 100px;
+    text-align: 2px 2px 8px Red;
+    font-family: "Roboto", sans-serif;
+}
